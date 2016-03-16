@@ -14,7 +14,7 @@ a constructor. In C# 6.0, we can now initialize the properties where they are de
 The following code snippet defines a class Student with one auto property, Name, and a parameterized constructor has been 
 defined to initialize this property to some value.
 
-``` CSharp
+```c#
 public class Student
 {
     public string Name { get; set; } // auto property - Name //declaration
@@ -27,7 +27,7 @@ public class Student
 
 In C# 6.0, the same code can be rewritten as shown below.
 
-``` CSharp
+```c#
 public class Student
 {
     public string Name
@@ -44,7 +44,7 @@ property implementation. With no setter, immutability is easier to do.
 
 The following code only has a getter accessor.
 
-``` CSharp
+```c#
 public class point
 {
     public int x { get; }
@@ -57,7 +57,7 @@ will appear to be read only when accessed from outside of the defined (where the
 class. When the declaration and assignment of the get accessor and set accessor are in a single class, we can easily 
 initialize the values using setter accessor in that class.
 
-``` CSharp
+```c#
 public class point
 {
     public int x { get; private set;}
