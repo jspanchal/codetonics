@@ -52,5 +52,10 @@ compress_html:
   endings: []
   profile: false
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
 permalink: /:categories/:title/
 
+exclude: [README.md, LICENCE, node_modules, package.json, gulpfile.js]
