@@ -58,4 +58,7 @@ sass:
 
 permalink: /:categories/:title/
 
+gems:
+  - jekyll-sitemap
+
 exclude: [README.md, LICENCE, node_modules, package.json, gulpfile.js]
