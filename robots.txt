@@ -1,0 +1,12 @@
+---
+layout: null
+---
+
+# robotstxt.org/
+# The robots exclusion protocol
+
+User-agent: *
+Disallow:
+Disallow: /articles/page
+Disallow: /search
+Sitemap: {{"/sitemap.xml" | prepend:site.baseurl | prepend:site.url}}
