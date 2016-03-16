@@ -1,0 +1,56 @@
+name: Codetonics
+description: A place for programmers
+logo: /image/codetonics-logo.png
+image: /image/codetonics-image.jpg
+version: 1
+locale: en_us
+disqus: codetonics
+analytics: UA-70051792-1
+
+author:
+  name: Jayesh Panchal
+  image: /image/jayesh.jpg
+  url: /about
+  bio: Programmer, Biker, Writer, Thinker
+  location: Mumbai, India
+  website: http://codetonics.com
+  facebook: ijayeshpanchal
+  twitter: codetonics
+  googleplus:
+  linkedin: codetonics
+  github: codetonics
+  stackoverflow: codetonics
+  instagram: codetonics
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+url: http://codetonics.com
+baseurl:
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+permalink: /:categories/:title/
+

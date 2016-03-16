@@ -1,0 +1,31 @@
+$breakpoint-sm: 480;
+$breakpoint-md: 640;
+$breakpoint-lg: 720;
+
+$site-max-width: 800px;
+
+$base-font-size: 18px;
+$base-line-height: 1.5;
+$base-font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Helvetica Neue", "Segoe UI", "Roboto", "Lucida Grande", sans-serif;
+$base-font-weight: 400;
+
+$heading-font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Helvetica Neue", "Segoe UI", "Roboto", "Lucida Grande", sans-serif;
+$h1-font-size-sm: 2.0rem;
+$h1-line-height-sm: 1.25;
+$h2-font-size-sm: 1.625rem;
+$h2-line-height-sm: 1.15384615;
+$h3-font-size-sm: 1.375rem;
+$h3-line-height-sm: 1.13;
+$h4-font-size-sm: 1.125rem;
+$h4-line-height-sm: 1.11;
+
+$blue: #2196F3;
+
+$primary-text-color: #4a4a4a;
+$secondary-text-color: #9eabb3;
+$primary-bg-color: white;
+
+$header-text-color: $primary-bg-color;
+$header-bg-color: $primary-text-color;
+
+$separator-color: #ebf2f6;

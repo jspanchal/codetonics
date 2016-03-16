@@ -1,0 +1,81 @@
+footer {
+  .share-menu {
+    @extend .site-width;
+    margin-top: 3rem;
+    text-align: center;
+
+    a {
+      padding: 10px;
+      font-size: $h2-font-size-sm;
+    }
+  }
+
+  .tag-cloud {
+    @extend .site-width;
+    margin-top: 3rem;
+    a {
+      padding: 3px 5px;
+      text-decoration: none;
+      border-width: 1px;
+      border-style: solid;
+      font-size: 0.9rem;
+      color: $secondary-text-color;
+
+      &:before {
+        content: "#";
+      }
+    }
+  }
+
+  .post-comments {
+    @extend .site-width;
+    margin-top: 3rem;
+  }
+
+  .read-more {
+    margin-top:3rem;
+
+    a {
+      text-decoration: none;
+    }
+
+    .story {
+      margin-top: 1px;
+      width: 100%;
+      min-height: 100px;
+      padding: 3rem 0;
+      color: $primary-bg-color;
+      background-color: $primary-text-color;
+
+      &:hover {
+        color: darken($primary-bg-color, 10%);
+        background-color: lighten($primary-text-color, 10%);
+      }
+    }
+
+    .read-next-text{
+      @extend .site-width;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+
+      span{
+        padding: 5px;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 2px;
+      }
+    }
+
+    .title {
+      @extend .site-width;
+      margin-top: 1rem;
+      font-size: $h2-font-size-sm;
+    }
+
+    .description {
+      @extend .site-width;
+      margin-top: 1rem;
+    }
+  }
+
+}

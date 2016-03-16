@@ -1,0 +1,22 @@
+<div class="read-more">
+    {% if page.next.url %}
+    <a class="next-story" style="background-image: url('{{page.next.image}}')" href="{{page.next.url}}">
+        <div class="story">
+            <div class="read-next-text"><span>Read This Next</span></div>
+            <div class="title">{{ page.next.title }}</div>
+            <div class="description">{{ page.next.excerpt | strip_html | truncatewords: 40 }}</div>
+        </div>
+    </a>
+    {% endif %}
+
+    {% if page.previous.url %}
+    <a class="prev-story" style="background-image: url('{{page.previous.image | prepend:site.baseurl}}')"
+       href="{{page.previous.url}}">
+        <div class="story">
+            <div class="read-next-text"><span>You Might Enjoy</span></div>
+            <div class="title">{{ page.previous.title }}</div>
+            <div class="description">{{ page.previous.excerpt | strip_html | truncatewords: 40 }}</div>
+        </div>
+    </a>
+    {% endif %}
+</div>
