@@ -4,7 +4,7 @@
         <div class="story">
             <div class="read-next-text"><span>Read This Next</span></div>
             <div class="title">{{ page.next.title }}</div>
-            <div class="description">{{ page.next.excerpt | strip_html | truncatewords: 40 }}</div>
+            <div class="description">{{ page.next.excerpt | strip_html | truncatewords: 30 }}</div>
         </div>
     </a>
     {% endif %}
@@ -15,7 +15,7 @@
         <div class="story">
             <div class="read-next-text"><span>You Might Enjoy</span></div>
             <div class="title">{{ page.previous.title }}</div>
-            <div class="description">{{ page.previous.excerpt | strip_html | truncatewords: 40 }}</div>
+            <div class="description">{{ page.previous.excerpt | strip_html | truncatewords: 30 }}</div>
         </div>
     </a>
     {% endif %}
