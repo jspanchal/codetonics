@@ -11,6 +11,11 @@ footer {
     }
   }
 
+  .related-posts{
+    @extend .site-width;
+    margin-top: 3rem;
+  }
+
   .tag-cloud {
     @extend .site-width;
     margin-top: 3rem;
