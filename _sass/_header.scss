@@ -28,29 +28,29 @@ header {
     @extend .site-width;
     margin-top: 1rem;
   }
-
-  .main-menu {
-    @extend .site-width;
-    margin: 0 auto 6rem;
-    text-align: right;
-
-    a{
-      padding:8px;
-      text-transform: uppercase;
-    }
-  }
-
-  .social-menu {
-    @extend .site-width;
-    text-align: center;
-
-    a {
-      padding: 5px;
-      font-size: $h3-font-size-sm;
-    }
-  }
 }
 
 .site-header {
   text-align: center;
+}
+
+.main-menu {
+  @extend .site-width;
+  margin: 0 auto 6rem;
+  text-align: right;
+
+  a{
+    padding:8px;
+    text-transform: uppercase;
+  }
+}
+
+.social-menu {
+  @extend .site-width;
+  text-align: center;
+
+  a {
+    padding: 5px;
+    font-size: $h3-font-size-sm;
+  }
 }
