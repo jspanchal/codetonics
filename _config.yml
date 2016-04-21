@@ -2,7 +2,7 @@ name: Codetonics
 description: A place for programmers
 logo: /image/codetonics-logo.png
 image: /image/codetonics-image.jpg
-version: 1
+version: 2
 locale: en_us
 disqus: codetonics
 analytics: UA-70051792-1
