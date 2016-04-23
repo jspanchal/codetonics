@@ -27,7 +27,7 @@ these elements to the DOM.
 Well, there are a serious problem here - too many reflows and too many jQuery objects. 
 
 Reflow is when the browser needs to process and draw the webpage, and it is one of the most expensive browser processes.
-Read more about [Layout Thrashing]("http://codetonics.com/javascript/layout-thrashing/") here.
+Read more about [Layout Thrashing](/javascript/layout-thrashing/) here.
 
 One of the easiest ways to improve the performance of your web app is to reduce the number of reflows, and that's what 
 we're going to do.
