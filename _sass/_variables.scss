@@ -6,10 +6,10 @@ $site-max-width: 800px;
 
 $base-font-size: 18px;
 $base-line-height: 1.5;
-$base-font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Helvetica Neue", "Segoe UI", "Roboto", "Lucida Grande", sans-serif;
+$base-font-family: 'Noto Sans', sans-serif;
 $base-font-weight: 400;
 
-$heading-font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Helvetica Neue", "Segoe UI", "Roboto", "Lucida Grande", sans-serif;
+$heading-font-family: 'Noto Sans', sans-serif;
 $h1-font-size-sm: 2.0rem;
 $h1-line-height-sm: 1.25;
 $h2-font-size-sm: 1.625rem;
@@ -21,11 +21,11 @@ $h4-line-height-sm: 1.11;
 
 $blue: #2196F3;
 
-$primary-text-color: #4a4a4a;
-$secondary-text-color: #9eabb3;
+$primary-text-color: rgba(0, 0, 0, 0.87);
+$secondary-text-color: rgba(0, 0, 0, 0.54);
 $primary-bg-color: white;
 
-$header-text-color: $primary-bg-color;
-$header-bg-color: $primary-text-color;
+$header-text-color: $primary-text-color;
+$header-bg-color: $primary-bg-color;
 
 $separator-color: #ebf2f6;
