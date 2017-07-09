@@ -1,5 +1,5 @@
 ---
-title: "Adding Google Drive to Windows Explorer Sidebar"
+title: "Adding Google Drive to Windows Explorer's Sidebar"
 category: "tips"
 tags: ["Tips", "Windows", "Google Drive"]
 image: "/image/add-google-drive-to-windows-explorer-sidebar.png"
