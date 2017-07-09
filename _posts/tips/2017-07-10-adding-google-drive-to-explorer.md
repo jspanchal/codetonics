@@ -2,6 +2,7 @@
 title: "Adding Google Drive to Windows Explorer Sidebar"
 category: "tips"
 tags: ["Tips", "Windows", "Google Drive"]
+image: "/image/add-google-drive-to-windows-explorer-sidebar.png"
 ---
 
 I recently started using **Google Drive** to store my stuffs. Just installed it on my windows machine and to my wonder, Google Drive folder shortcut doesn't exists in Windows Explorer Sidebar as OneDrive or Dropbox or Box.
