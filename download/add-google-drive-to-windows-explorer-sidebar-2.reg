@@ -52,4 +52,4 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}\Instance\InitPropertyBag]
 "Attributes"=dword:00000011
-"TargetFolderPath"="D:\\Google Drive"
+"TargetFolderPath"="%PATH_TO_GOOGLE_DRIVE%"

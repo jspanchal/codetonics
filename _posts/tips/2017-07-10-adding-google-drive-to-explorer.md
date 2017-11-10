@@ -13,7 +13,7 @@ After few google searched and tinkering with Windows Registry, I found a perfect
 
 Here are the steps
 
-1. Download [Add Google Drive to Windows Explorer File](/download/add-google-drive-to-windows-explorer-sidebar.reg)
+1. Download [Add Google Drive to Windows Explorer File](/download/add-google-drive-to-windows-explorer-sidebar-2.reg)
 
 2. Open ```add-google-drive-to-windows-explorer-sidebar.reg``` file with notepad which you have just downloaded and update the ```%PATH_TO_GOOGLE_DRIVE%``` values for target folder path i.e. path of Google Drive folder.
 For example: If Google Drive folder is located at ```"D:\Google Drive"``` then replace ```%PATH_TO_GOOGLE_DRIVE%``` with ```"D:\\Google Drive"```.
