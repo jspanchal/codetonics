@@ -38,3 +38,7 @@ without credit. Change it around, put in a bunch of swear words and attribute th
 **Attribution is appreciated** but not required.
 
 [Why I'm releasing copyright ?](http://zenhabits.net/uncopyright)
+
+And finally a picture of me ;-)
+
+![Jayesh Panchal](/image/jayesh-panchal.jpg)
