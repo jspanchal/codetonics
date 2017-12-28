@@ -14,6 +14,13 @@
 {% endif %}
 {% capture meta_description %}{{page_description | markdownify | strip_html | strip_newlines | truncate: 160 | escape_once}}{% endcapture %}
 
+{% if page.tags %}
+{% assign page_keywords = page.tags %}
+{% else %}
+{% assign page_keywords = site.keywords %}
+{%endif %}
+{% capture meta_keywords %}{{page_keywords | join: ', ' | escape}}{% endcapture %}
+
 <!-- Basic page needs -->
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -25,6 +32,7 @@
 <title>{{meta_title}}</title>
 <meta name="title" content="{{meta_title}}">
 <meta name="description" content="{{meta_description}}">
+<meta name="keywords" content="{{meta_keywords}}">
 {% if page.date %}<meta name="author" content="{{site.author.name}}">{% endif %}
 
 <!-- Open Graph tags -->
