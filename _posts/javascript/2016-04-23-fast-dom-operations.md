@@ -1,7 +1,7 @@
 ---
 title: "Fast (and slow) way to append elements in DOM"
 categories: "JavaScript"
-tags: ["JavaScript", "JQuery", "DOM", "Layout Thrashing"]
+tags: ["JavaScript", "JQuery", "DOM", "Layout Thrashing", "Performance"]
 ---
 
 **JQuery** is a no doubt powerful tool for front-end developers because of the way it makes the task of handling DOM 

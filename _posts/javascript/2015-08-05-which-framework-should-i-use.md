@@ -1,7 +1,7 @@
 ---
 title: Which Javascript framework should I use ?
 categories: [Javascript]
-tags: [Javascript, Frameworks]
+tags: [Javascript, Frameworks, Angular, React, Vue]
 ---
 
 Till the moment I publish this article there will be one more javascript library ready to make its depute. 

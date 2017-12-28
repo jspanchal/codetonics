@@ -1,7 +1,7 @@
 ---
 title: Prebrowsing to supercharge web performance
 categories: ["Performance"]
-tags: ["Performance", "Web", "Optimization"]
+tags: ["Performance", "Web", "Optimization", "Prebrowsing", "Caching"]
 ---
 
 **"Prebrowsing"** or **"predictive browsing"** is simply loading a file  before browser needs it, to provide a fast and

@@ -1,7 +1,7 @@
 ---
 title: "Having a strong password does not protect you from vulnerabilities relating to password reuse"
 category: "tips"
-tags: ["Tips", "Password"]
+tags: ["Tips", "Password", "Password Managers", "Lastpass", "1Password"]
 ---
 
 So you've come up with a strong password that you use to sign up to most internet services you use. Great! You are now 

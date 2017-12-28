@@ -1,7 +1,7 @@
 ---
 title: "I am sick of tiny typography"
 category: "Design"
-tags: ["Design", "Typography"]
+tags: ["Design", "UI", "UX", "Typography"]
 ---
 
 > Your tiny type is hard to read - no, not hard to read, impossible to read.

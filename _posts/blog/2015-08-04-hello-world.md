@@ -1,7 +1,7 @@
 ---
 title: Hello World! Shifted to Github Pages
 categories: [Blog]
-tags: [Github, Wordpress]
+tags: [Github, Jekyll, Github Pages, Wordpress, Blogging]
 ---
 
 I always loved Wordpress as a blogging platform because of its flexibility.

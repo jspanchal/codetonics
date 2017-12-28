@@ -1,7 +1,7 @@
 ---
 title: "Great idea, poorly designed"
 categories: ["Design"]
-tags: ["Design", "Productivity"]
+tags: ["Design", "UI", "UX", "Productivity"]
 ---
 
 > **"It has been tried before" is a bad excuse to dismiss a product.**

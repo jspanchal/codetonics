@@ -1,7 +1,7 @@
 ---
 title: Deal with something only once
 categories: [Life]
-tags: []
+tags: [Life, Tips, Productivity]
 ---
 
 I find myself consciously procrastinating more than I would like. I'll read some email, some GitHub issue or pull request 
