@@ -12,16 +12,16 @@ have been blessed with loving parents and one younger sister.
 I attended **[The Maharaja Sayajirao University, Baroda](http://www.msubaroda.ac.in)** where I completed my 
 *graduation(BCA)* as well as *post graduation in computer applications(MCA)*.
 
-I work at **[Zeus Learning, Mumbai](http://www.zeuslearning.com)**, and absolutely love what I do (writing tons of code).
+I currenty work at **[Fork Media](http://getforked.in/)**, trying to build products with ability to change the entire advertising industry.
+
+Previously I have worked at **[Zeus Learning, Mumbai](http://www.zeuslearning.com)** for almost three years building [product](https://annotate.net) that have potential to change the way how a teacher interact with students in the classroom.
 
 Most of the time when I am not writing code, I spend thinking about the **design** of various things. The experience user 
 will have. The usability of particular design etc.
 
 My love for **bikes** is known to almost everyone in my life.
 
-I started this blog because of my love for writing. Especially so for things that I like. This site is a resource - for 
-myself and the community. It's also my personal design and code playground, a place to experiment, and therefore, a site 
-that is often in a state of flux.
+I started this blog because of my love for writing. Especially so for things that I like. This site is a resource - for myself and the community. It's also my personal design and code playground, a place to experiment, and therefore, a site that is often in a state of flux.
 
 If you're feeling up to it, tweet me on **[Twitter](http://twitter.com/codetonics)**.
 
