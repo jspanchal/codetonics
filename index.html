@@ -5,6 +5,7 @@ layout: default
 {%include site-header.html%}
 <ul class="article-list">    
     {%include adsense-inarticle.html%}
+    <br /><br />
     {% for post in site.posts %}
     <li>
         <a class="title" href="{{post.url | prepend: site.baseurl}}">{{ post.title }}</a>
