@@ -6,8 +6,8 @@
   .title {
     text-decoration: none;
     font-weight: bold;
-    font-size: $h1-font-size-sm;
-    line-height: $h1-line-height-sm;
+    font-size: $h3-font-size-sm;
+    line-height: $h3-line-height-sm;
   }
 
   .description {
@@ -30,7 +30,7 @@
 
   hr {
     margin-top: 1.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
   }
 
   li:last-child{
