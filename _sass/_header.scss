@@ -1,6 +1,7 @@
 header {
   padding-top: 1rem;
-  
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;  
   color: $header-text-color;
   background: $header-bg-color no-repeat center center;
   background-size: cover;
@@ -30,9 +31,7 @@ header {
 }
 
 .site-header {
-  text-align: center;
-  padding-bottom: 2rem;
-  margin-bottom: 2rem;
+  text-align: center;  
 }
 
 .main-menu {
