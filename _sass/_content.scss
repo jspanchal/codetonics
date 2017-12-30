@@ -9,6 +9,11 @@
     margin-top: 3rem;
   }
 
+  pre{
+    white-space: pre-wrap;
+    word-wrap: break-word;  
+  }
+
   blockquote {
     p {
       padding-left: 1rem;
