@@ -6,6 +6,7 @@ description: Welcome to Codetonics, a place to read and interact with articles r
 
 {%include site-header.html%}
 <ul class="article-list">
+    {%include adsense-inarticle.html%}
     {% for post in site.posts %}
     <li>
         <a class="title" href="{{post.url | prepend: site.baseurl}}">{{ post.title }}</a>
@@ -34,5 +35,6 @@ description: Welcome to Codetonics, a place to read and interact with articles r
     </li>
     </article>
     {% endfor %}
+    {%include adsense-inarticle.html%}
 </ul>
 {%include site-footer.html%}
