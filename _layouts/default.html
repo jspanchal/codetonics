@@ -3,33 +3,16 @@ layout: compress
 ---
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     {%include meta-tags.html%}
     <title></title>
     <link rel="stylesheet" href="/css/main.css?{{site.version}}">
-
-    <script>
-        function onBodyLoaded() {
-            const adsenseAds = document.querySelectorAll('.adsense-ad');
-            const paragraphs = document.querySelectorAll('.content p');
-            const index = Math.ceil(paragraphs.length / 2);
-
-            if(adsenseAds[2] && index > 3){
-                const insertBeforeElement = paragraphs[index];
-                const elementToInsert = adsenseAds[2];
-                insertBeforeElement.parentElement.insertBefore(elementToInsert, insertBeforeElement);
-            }
-        }
-    </script>
 </head>
-
-<body onload="onBodyLoaded()">
-    <main>
-        {{content}}
-    </main>
-    {%include analytics.html%}
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<body>
+<main>
+    {{content}}
+</main>
+{%include analytics.html%}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </body>
-
 </html>
