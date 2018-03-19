@@ -7,7 +7,7 @@ tags: [Angular, Javascript, SCSS, SASS, CSS]
 Admit it, we all love ```scss/sass/less``` because of its capabilities and wants to use it in all of our projects.
 However while working with Angular CLI, the default stylesheet have the ```.css``` extension.
 
-Let's bring ```scss/sass/less``` to an angular project.
+*Let's bring ```scss/sass/less``` to an angular project.*
 
 There are two main scenarios here.
 
@@ -19,7 +19,7 @@ There are two main scenarios here.
 Now this is pretty straight forward. Normally when we run ```ng new my-angular-app```, the app will have stylesheet files with ```.css``` extension by default.
 To get the Angular CLI to generate stylesheet files with ```.scss/.sass/.less``` extension is also piece of cake.
 
-Create a new project with ```.scss/.sass/.less``` files for styling with the following command:
+Create a new project with ```.scss/.sass/.less``` files for styling with the following Angular CLI command:
 
 ```javascript
 ng new my-angular-app --style=scss // For .scss
