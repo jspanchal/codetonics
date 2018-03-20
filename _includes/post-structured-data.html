@@ -28,7 +28,7 @@
 {% else %}
 {% assign page_description = site.description %}
 {% endif %}
-{% capture meta_description %}{{page_description | markdownify | strip_html | strip_newlines | truncate: 160 | escape_once}}{% endcapture %}
+{% capture meta_description %}{{page_description | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip | truncate: 200 }}{% endcapture %}
 
 {% if page.categories %}
 {% assign page_categories = page.categories %}
@@ -68,7 +68,7 @@
     "genre": "{{meta_categories}}",
     "keywords": "{{meta_keywords}}",
     "wordCount": "{{wordcount}}",
-    "articleBody": "{{ page.content | markdownify | strip_html | strip_newlines }}",
+    "articleBody": "{{ page.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip }}",
     "image": {
       "@type": "ImageObject",
       "url": "{{meta_image}}"
