@@ -18,10 +18,10 @@
             <div class="description">{{ page.previous.excerpt | strip_html | truncatewords: 30 }}</div>
         </div>
     </a>
-    <div class="story">
-        <div class="read-next-text"><span>Sponsored</span></div>
-        <div style="margin-top:1.3rem;"></div>
-        {%include adsense-inarticle.html%}
-    </div>
     {% endif %}
+    <div class="story">
+            <div class="read-next-text"><span>Sponsored</span></div>
+            <div style="margin-top:1.3rem;"></div>
+            {%include adsense-inarticle.html%}
+    </div>
 </div>

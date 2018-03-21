@@ -2,13 +2,10 @@
 layout: default
 title: Codetonics - A Programmer's Blog
 description: Welcome to Codetonics, a place to read and interact with articles related to Programming, User Experience and Productivity that matter most to you.
---- 
-
+---
 {%include site-header.html%}
 <ul class="article-list">
-    {%include adsense-inarticle.html%}
-    <br />
-    <br /> {% for post in paginator.posts %}
+    {% for post in paginator.posts %}
     <li>
         <a class="title" href="{{post.url | prepend: site.baseurl}}">{{ post.title }}</a>
 
@@ -45,6 +42,5 @@ description: Welcome to Codetonics, a place to read and interact with articles r
         </a>
         {%endif%}
     </nav>
-    {%include adsense-inarticle.html%}
 </ul>
 {%include site-footer.html%}
