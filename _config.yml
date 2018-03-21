@@ -59,7 +59,11 @@ sass:
 
 permalink: /:categories/:title/
 
+paginate: 15
+paginate_path: "/page/:num/"
+
 plugins:
   - jekyll-sitemap
+  - jekyll-paginate
 
 exclude: [README.md, LICENCE, node_modules, package.json, gulpfile.js]
