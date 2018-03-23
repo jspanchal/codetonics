@@ -15,7 +15,7 @@ html {
   line-height: $base-line-height;
   height: 100%;
   color: $primary-text-color;
-  background-color: $primary-bg-color;
+  background: transparent url("/image/tile-graphpaper.jpg") 50% 0;
 }
 
 body {
