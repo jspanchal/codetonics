@@ -19,3 +19,5 @@ Most of the time when I'm on my computer, and reader mode doesn't exists. I hit 
 Of course I know zoom is a mandatory feature in almost every browser, but that doesn't prevent breaking the layout in unexpected ways unless developed with good responsive practices.
 
 How many times have you have heard users complain about fonts being too small? More times than you've heard them complain about fonts being too large - wait, you've never heard a user complain about that. Your users are struggling to read your content. Surely that isn't what you're going for, and surely that isn't a good experience.
+
+[A more modern scale for web typography](http://typecast.com/blog/a-more-modern-scale-for-web-typography) can help you set font-size in yout web application.
