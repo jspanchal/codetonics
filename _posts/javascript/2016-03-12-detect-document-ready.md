@@ -1,7 +1,7 @@
 ---
-title: "Detect if document is ready in pure Javascript"
-categories: ["Javascript"]
-tags: ["Javascript", "Tips", "JQuery", "Performance"]
+title: "Detect if document is ready in pure JavaScript"
+categories: ["JavaScript"]
+tags: ["JavaScript", "Tips", "JQuery", "Performance"]
 ---
 
 While JavaScript does provide the ```load``` event for executing code when a page is rendered, this event does not get

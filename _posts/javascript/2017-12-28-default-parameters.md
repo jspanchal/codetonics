@@ -1,7 +1,7 @@
 ---
 title: Default parameters in JavaScript
-categories: [Javascript]
-tags: [Javascript, Default Parameters, ES6]
+categories: [JavaScript]
+tags: [JavaScript, Default Parameters, ES6]
 ---
 
 Remember we had to do these statements [short circuit statements](http://codetonics.com/javascript/short-circuit-evaluation/) to define default parameter?

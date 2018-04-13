@@ -1,7 +1,7 @@
 ---
 title: Measuring JavaScript performance with console.time()
-categories: ["Javascript"]
-tags: ["Javascript", "Performance"]
+categories: ["JavaScript"]
+tags: ["JavaScript", "Performance"]
 ---
 
 Every now and than almost every developer has to deal with optimizing performance critical code. This article will show 

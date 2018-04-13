@@ -1,7 +1,7 @@
 ---
 title: Detecting Array vs Object in JavaScript
-categories: [Javascript]
-tags: [Javascript, Array, Object, instanceof, Tips]
+categories: [JavaScript]
+tags: [JavaScript, Array, Object, instanceof, Tips]
 ---
 
 The behaviour of JavaScript can be tricky some times.
@@ -40,7 +40,7 @@ console.log(getListOfPlayerNames(players));
 
 Opps! something is definitely wrong here. Instead of returning an array of player names, it is returning an array containing only ```undefined```.
 
-*Checking types in Javascript is well known as a pretty unreliable process.*
+*Checking types in JavaScript is well known as a pretty unreliable process.*
 
 The problem here is that our function's array detection logic is reversed.
 In JavaScript an ```Array``` is just a special type of ```Object``` and because of that, it is impossible for our ```else if``` to ever be triggered. And since the array we passed in doesn't have a name property, we end up returning an array containing only an ```undefined``` element.

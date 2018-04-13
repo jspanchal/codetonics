@@ -1,10 +1,10 @@
 ---
 title: Ultimate pattern of handling every input events in JavaScript
-categories: [Javascript]
-tags: [Javascript, Pointer Event, Touch Event, Mouse Event, Pen Event]
+categories: [JavaScript]
+tags: [JavaScript, Pointer Event, Touch Event, Mouse Event, Pen Event]
 ---
 
-If you’re writing Javascript handlers for touchscreen input, don’t forget other users too.
+If you’re writing JavaScript handlers for touchscreen input, don’t forget other users too.
 
 In my opinion, this is the golden pattern today:
 

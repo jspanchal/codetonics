@@ -1,7 +1,7 @@
 ---
 title: Using SCSS/SASS/LESS to style your angular project
 categories: [Angular]
-tags: [Angular, Angular 2, Angular 4, Angular 5, Javascript, SCSS, SASS, CSS]
+tags: [Angular, Angular 2, Angular 4, Angular 5, JavaScript, TypeScript, SCSS, SASS, CSS]
 ---
 
 Admit it, we all love ```scss/sass/less``` because of its capabilities and wants to use it in all of our projects.

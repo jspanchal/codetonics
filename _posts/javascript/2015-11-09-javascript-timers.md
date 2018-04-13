@@ -1,14 +1,14 @@
 ---
 title: JavaScript Timers
-categories: [Javascript]
-tags: [Javascript, Timers, setTimeout, setInterval]
+categories: [JavaScript]
+tags: [JavaScript, Timers, setTimeout, setInterval]
 ---
 
 At face value their behavior appears straightforward and predictable. 
 However JavaScript’s single threaded nature can cloak these seemingly innocent little features with mystery and intrigue, 
 not to mention hidden powers which can be harnessed for the greater good
 
-A block of Javascript code is generally executed synchronously. But there are some Javascript native functions called **timers** 
+A block of JavaScript code is generally executed synchronously. But there are some JavaScript native functions called **timers** 
 which let us to delay the execution of arbitrary instructions.
  
 

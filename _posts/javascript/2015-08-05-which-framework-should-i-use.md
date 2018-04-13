@@ -1,7 +1,7 @@
 ---
-title: Which Javascript framework should I use ?
-categories: [Javascript]
-tags: [Javascript, Frameworks, Angular, React, Vue]
+title: Which JavaScript framework should I use ?
+categories: [JavaScript]
+tags: [JavaScript, Frameworks, Angular, React, Vue]
 ---
 
 Till the moment I publish this article there will be one more javascript library ready to make its depute. 
@@ -23,5 +23,5 @@ That's a good thing - not a bad thing. The use of these frameworks expose their 
 Frameworks help with some things, but they bring in a bunch of complexity as well.
 So I'd say don't use a framework until you know you need it and why you need it.
 I've worked with a bunch of frameworks, and they all have their sweet spots but they're no silver bullets.
-You're better off really understanding Javascript and the DOM before you start with frameworks because by then you know what the framework gives you, and what you give up by using one.
+You're better off really understanding JavaScript and the DOM before you start with frameworks because by then you know what the framework gives you, and what you give up by using one.
 And that information lets you make a better decision.

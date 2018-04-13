@@ -1,7 +1,7 @@
 ---
 title: "Parameter passing in JavaScript"
-categories: ["Javascript"]
-tags: ["Javascript", "Tips", "Parameters"]
+categories: ["JavaScript"]
+tags: ["JavaScript", "Tips", "Parameters"]
 ---
 
 In JavaScript, we have functions and arguments that we pass into those functions. But how JavaScript

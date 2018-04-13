@@ -1,7 +1,7 @@
 ---
 title: "Short-circuit evaluation in JavaScript"
-categories: ["Javascript"]
-tags: ["Javascript", "Tips", "Default Parameters"]
+categories: ["JavaScript"]
+tags: ["JavaScript", "Tips", "Default Parameters"]
 ---
 
 **Short-circuit** or **Minimal** or **McCarthy** evaulation says, the second argument is executed or 

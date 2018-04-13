@@ -1,7 +1,7 @@
 ---
 title: requestAnimationFrame - The secret to silky smooth JavaScript animation
-categories: [Javascript]
-tags: [Javascript, requestAnimationFrame, setTimeout, setInterval, Performance]
+categories: [JavaScript]
+tags: [JavaScript, requestAnimationFrame, setTimeout, setInterval, Performance]
 ---
 
 JavaScript animation can be handled a number of ways. If you've ever tried to do it, you'll most likely have used either 

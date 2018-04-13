@@ -1,10 +1,10 @@
 ---
 title: Layout thrashing is killing the performance of your web application
-categories: [Javascript]
-tags: [Javascript, Layout Thrashing, Performance]
+categories: [JavaScript]
+tags: [JavaScript, Layout Thrashing, Performance]
 ---
 
-Layout Thrashing occurs when Javascript violently writes, then reads, from the DOM, multiple times causing document 
+Layout Thrashing occurs when JavaScript violently writes, then reads, from the DOM, multiple times causing document 
 reflows and then web browser has to repaint the web page, which causes significant delay when loading the page.
 
 Depending on the number of reflows/repaints and the complexity of the web page, there is potential to cause significant 
