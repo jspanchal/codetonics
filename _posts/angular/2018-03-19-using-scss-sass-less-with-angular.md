@@ -1,5 +1,5 @@
 ---
-title: Using SCSS/SASS/LESS to style your angular project
+title: Using SCSS/SASS/LESS to style your Angular project
 categories: [Angular]
 tags: [Angular, Angular 2, Angular 4, Angular 5, JavaScript, TypeScript, SCSS, SASS, CSS]
 ---

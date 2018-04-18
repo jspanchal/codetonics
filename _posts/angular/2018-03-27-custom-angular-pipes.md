@@ -1,5 +1,5 @@
 ---
-title: Creating custom angular pipes
+title: Creating custom Angular pipes
 categories: [Angular]
 tags: [Angular, Angular 2, Angular 4, Angular 5, Pipes, Filters, JavaScript, TypeScript]
 ---
