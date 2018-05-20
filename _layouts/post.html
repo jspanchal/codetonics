@@ -46,11 +46,15 @@ into the {body} of the default.hbs template -->
             </figure>
             {% endif %}
 
+            {%include adsense.html%}
+
             <section class="post-full-content">
                 <div class="kg-card-markdown">
                     {{ content }}
                 </div>
             </section>
+
+            {%include adsense.html%}
 
             <!-- Email subscribe form at the bottom of the page -->
             {% if site.subscribers %}
