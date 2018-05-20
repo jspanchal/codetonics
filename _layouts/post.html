@@ -61,6 +61,19 @@ into the {body} of the default.hbs template -->
                 </section>
             {% endif %}
 
+            <section class="post-full-meta">
+                <span>Tagged In:&nbsp;</span>
+                {% if page.tags.size > 0 %}
+                    {% for tag in page.tags %}
+                        {% if forloop.index == page.tags.size %}
+                            <a href='/tag/{{ tag | downcase | replace: ' ', '-' }}/'>{{ tag | upcase }}</a>
+                        {% else %}
+                            <a href='/tag/{{ tag | downcase | replace: ' ', '-' }}/'>{{ tag | upcase }},&nbsp;</a>
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+            </section>
+
             <footer class="post-full-footer">
                 <!-- Everything inside the #author tags pulls data from the author -->
                 <!-- #author-->
