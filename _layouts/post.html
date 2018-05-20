@@ -27,10 +27,10 @@ into the {body} of the default.hbs template -->
             <header class="post-full-header">
                 <section class="post-full-meta">
                     <time class="post-full-meta-date" datetime="{{ page.date | date:'%e %B %Y' }}">{{ page.date | date:'%e %B %Y' }}</time>
-                    {% if page.tags.size > 0 %}
+                    {% if page.categories.size > 0 %}
                         <span class="date-divider">/</span>
-                        {% for tag in page.tags %}
-                            {% if forloop.index == page.tags.size %}
+                        {% for tag in page.categories %}
+                            {% if forloop.index == page.categories.size %}
                                <a href='/tag/{{ tag | downcase | replace: ' ', '-' }}/'>{{ tag | upcase }}</a>
                             {% else %}
                                <a href='/tag/{{ tag | downcase | replace: ' ', '-' }}/'>{{ tag | upcase }}</a>,
@@ -117,12 +117,12 @@ into the {body} of the default.hbs template -->
 <aside class="read-next outer">
     <div class="inner">
         <div class="read-next-feed">
-            {% if page.tags.size > 0 %}
-                {% assign primary = page.tags | first %}
+            {% if page.categories.size > 0 %}
+                {% assign primary = page.categories | first %}
                 {% assign related_posts = 0 %}
                 {% for post in site.posts %}
-                  {% if post.tags.size > 0 %}
-                      {% if post.tags contains primary %}
+                  {% if post.categories.size > 0 %}
+                      {% if post.categories contains primary %}
                         {% assign related_posts = related_posts | plus: 1 %}
                       {% endif %}
                   {% endif %}
@@ -147,7 +147,7 @@ into the {body} of the default.hbs template -->
                             <ul>
                                 {% assign count = 0 %}
                                 {% for post in site.posts %}
-                                  {% if post.tags contains primary %}
+                                  {% if post.categories contains primary %}
                                     {% if post.title != page.title %}
                                         {% assign count = count | plus: 1 %}
                                         {% if count <= 3 %}

@@ -8,9 +8,9 @@
         <div class="post-card-content">
             <a class="post-card-content-link" href="/{{ page.previous.url | remove_first: '/' }}">
                 <header class="post-card-header">
-                    {% if page.previous.tags.size > 0 %}
-                        {% for tag in page.previous.tags %}
-                            {% if forloop.index == page.previous.tags.size %}
+                    {% if page.previous.categories.size > 0 %}
+                        {% for tag in page.previous.categories %}
+                            {% if forloop.index == page.previous.categories.size %}
                                 <span class="post-card-tags">{{ tag | capitalize }}</span>
                             {% else %}
                                <span class="post-card-tags">{{ tag | capitalize }}</span>
