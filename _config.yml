@@ -5,7 +5,7 @@ language: 'en-US'
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 url: http://codetonics.com
-baseurl:
+baseurl: /
 
 # Website info
 title: Codetonics
