@@ -9,4 +9,4 @@ User-agent: *
 Disallow:
 Disallow: /articles/page
 Disallow: /search
-Sitemap: {{"/sitemap.xml" | prepend:site.baseurl | prepend:site.url}}
+Sitemap: {{"/sitemap.xml" | prepend:site.url}}
