@@ -1,4 +1,5 @@
 @import "global.css";
+.highlighter-rouge { max-width: 100%; overflow: scroll;}
 .highlight pre { background: color(var(--darkgrey) l(-3%)); }
 .highlight .hll { background: color(var(--darkgrey) l(-3%)); }
 .highlight .c { color: #75715e } /* Comment */
