@@ -11,7 +11,7 @@ baseurl:
 title: Codetonics
 description: A Programmer's Blog
 cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
+logo: False
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
 keywords: [Programming, Design, UI, UX, Productivity, Tips, JavaScript, Nodejs, CSS, SCSS, HTML, C#, Blogging]
