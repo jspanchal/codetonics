@@ -1,69 +1,107 @@
-name: Codetonics
-description: A Programmer's Blog
-keywords: [Programming, Design, UI, UX, Productivity, Tips, JavaScript, Nodejs, CSS, SCSS, HTML, C#, Blogging]
-logo: /image/codetonics-logo.png?1
-image: /image/codetonics-image.jpg?1
-version: 2
-locale: en_us
-disqus: codetonics
-analytics: UA-70051792-1
+# Jekyll configuration
+markdown: kramdown
+highlighter: rouge
+language: 'en-US'
 
-author:
-  name: Jayesh Panchal
-  image: /image/jayesh.jpg
-  url: /about
-  bio: Programmer, Biker, Writer, Thinker
-  location: Mumbai, India
-  website: http://codetonics.com
-  facebook: a1pha.m
-  twitter: codetonics
-  googleplus:
-  linkedin: codetonics
-  github: codetonics
-  stackoverflow: codetonics
-  instagram: a1pha_m
+# edit baseurl to simply '/' if using as your personal page (instead of a project page)
+url: http://codetonics.com
+baseurl: /
+
+# Website info
+title: Codetonics
+description: A Programmer's Blog
+cover: assets/images/blog-cover.jpg
+logo: assets/images/blog-icon.png
+logo_dark: assets/images/favicon.png
+favicon: assets/images/favicon.png
+production_url: http://codetonics.com
+source_url: http://codetonics.com
+keywords: [Programming, Design, UI, UX, Productivity, Tips, JavaScript, Nodejs, CSS, SCSS, HTML, C#, Blogging]
+
+
+# Social info
+navigation: True # show the navbar links
+subscribers: False # you need to connect an external service for this to work,
+# if 'True' the submit button is disabled for now, but you can change that
+# by editing `_includes/subscribe-form.html`
+twitter: codetonics # replace by your username
+facebook: a1pha.m # replace by your username
+linkedin: codetonics
+github: codetonics
+stackoverflow: codetonics
+instagram: a1pha_m
+
+# Disqus
+disqus: True
+disqus_shortname: codetonics # replace with your disqus username
+
+# Google Analytics
+google_analytics: UA-70051792-1 # replace with your GA tracking identifier
+
+# Permalinks
+permalink: /:categories/:title/
+# permalink: /author/:author
+# permalink: /category/:tag
+
+# Authors' info in `_data/authors.yml`
+# Tags' info in `_data/tags_info.yml`
+
+
+feed:
+  path: feed.xml
+
+# Additional settings available on the front-matter
+# Site logo in the index.html (as in demo.ghost.io)
+# Author's page cover in _layouts/author.html
+# The same for page.html and tag.html layouts
+# Post's page cover as a per-post basis _posts/...
+# Disqus comments as a per-post basis
+# ...
+
+
+exclude:
+  - assets/css
+  - node_modules
+  - vendor
+  - .travis.yml
+  - Gemfile
+  - Gemfile.lock
+  - GHOST.txt
+  - gulpfile.js
+  - LICENSE
+  - package.json
+  - Rakefile
+  - README.md
+  - script.py
+  - changelog.md
+  - "*.Rmd"
+  - .git*
+
 
 defaults:
   -
     scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
-      layout: "post"
+      layout: post
+      current: post
+      navigation: true
+      class: post-template
+      subclass: post
+      author: jayesh
   -
     scope:
       path: ""
-      type: "pages"
+      type: pages
     values:
-      layout: "page"
-
-url: http://codetonics.com
-baseurl:
-
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM
-  hard_wrap: false
-  syntax_highlighter: rouge
-
-compress_html:
-  clippings: all
-  comments: all
-  endings: []
-  profile: false
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-permalink: /:categories/:title/
+      layout: page
+      navigation: true
+      class: page-template
+      subclass: post page
 
 paginate: 20
-paginate_path: "/page/:num/"
+paginate_path: "/page:num/"
 
 plugins:
-  - jekyll-sitemap
   - jekyll-paginate
-
-exclude: [README.md, LICENCE, node_modules, package.json, gulpfile.js]

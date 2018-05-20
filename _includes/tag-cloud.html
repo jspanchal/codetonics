@@ -1,7 +1,0 @@
-{% if page.tags.size > 0 %}
-<div class="tag-cloud">
-    {% for tag in page.tags %}
-    <a href="{{ tag | prepend:'/tags#' | prepend:site.baseurl }}">{{ tag | capitalize }}</a>
-    {% endfor %}
-</div>
-{% endif %}
