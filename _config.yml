@@ -4,8 +4,8 @@ highlighter: rouge
 language: 'en-US'
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-url: http://codetonics.com/
-baseurl: /
+url: http://codetonics.com
+baseurl:
 
 # Website info
 title: Codetonics
