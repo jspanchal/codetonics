@@ -4,7 +4,7 @@ highlighter: rouge
 language: 'en-US'
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-url: http://codetonics.com
+url: http://codetonics.com/
 baseurl: /
 
 # Website info
@@ -14,8 +14,6 @@ cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: http://codetonics.com
-source_url: http://codetonics.com
 keywords: [Programming, Design, UI, UX, Productivity, Tips, JavaScript, Nodejs, CSS, SCSS, HTML, C#, Blogging]
 
 
