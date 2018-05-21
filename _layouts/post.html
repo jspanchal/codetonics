@@ -140,10 +140,10 @@ into the {body} of the default.hbs template -->
         <div class="read-next-feed">
             {% if page.categories.size > 0 %}
                 {% assign primary = page.categories | first %}
-                {% assign related_posts = 0 %}
+                {% assign related_posts = 1 %}
                 {% for post in site.posts %}
-                  {% if post.categories.size > 0 %}
-                      {% if post.categories contains primary %}
+                  {% if post.tags.size > 0 %}
+                      {% if post.tags contains primary %}
                         {% assign related_posts = related_posts | plus: 1 %}
                       {% endif %}
                   {% endif %}
@@ -166,15 +166,13 @@ into the {body} of the default.hbs template -->
                         <div class="read-next-divider">{% include infinity.html %}</div>
                         <div class="read-next-card-content">
                             <ul>
-                                {% assign count = 0 %}
+                                {% assign count = 1 %}
                                 {% for post in site.posts %}
-                                  {% if post.categories contains primary %}
-                                    {% if post.title != page.title %}
+                                  {% if post.tags contains primary %}
                                         {% assign count = count | plus: 1 %}
                                         {% if count <= 3 %}
                                             <li><a href="/{{ post.url | remove_first: '/' }}">{{ post.title }}</a></li>
                                         {% endif %}
-                                    {% endif %}
                                   {% endif %}
                                 {% endfor %}
                             </ul>
