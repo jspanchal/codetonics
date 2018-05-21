@@ -41,11 +41,22 @@
 {%endif %}
 {% capture meta_modified_date %}{{page_modified_date | date_to_xmlschema}}{% endcapture %}
 
+{% for author in site.data.authors %}
+    {% if author[1].username == page.author %}
+            {% assign author_name = author[1].name %}
+            {% assign author_image = author[1].picture %}
+            {% assign author_facebook = author[1].facebook %}
+            {% assign author_twitter = author[1].twitter %}
+            {% assign author_github = author[1].github %}
+            {% assign author_linkedin = author[1].linkedin %}
+    {% endif %}
+{% endfor %}
+
 
 <meta name="title" content="{{meta_title}}">
 <meta name="description" content="{{meta_description}}">
 <meta name="keywords" content="{{meta_keywords}}">
-{% if page.date %}<meta name="author" content="{{page.author.name}}">{% endif %}
+{% if author_name %}<meta name="author" content="{{author_name}}">{% endif %}
 <link rel="shortcut icon" href="{{ site.url }}/{{ site.favicon }}" type="image/png" />
 <link rel="canonical" href="{{ meta_url }}" />
 <meta name="referrer" content="no-referrer-when-downgrade" />
@@ -96,6 +107,29 @@
 <meta name="yandex-verification" content="afe8461a5f4c907b" />
 
 <script type="application/ld+json">
+[
+    {
+        "@context": "https://schema.org",
+        "@type":"SiteNavigationElement",
+        "name":"Blog",
+        "url":"{{ site.url }}"
+    },
+    {
+        "@context": "https://schema.org",
+        "@type":"SiteNavigationElement",
+        "name":"Projects",
+        "url":"{{ site.url }}/projects"
+    },
+    {
+        "@context": "https://schema.org",
+        "@type":"SiteNavigationElement",
+        "name":"About",
+        "url":"{{ site.url }}/about"
+    },
+]
+</script>
+
+<script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Website",
@@ -105,7 +139,7 @@
         "logo": "{{ site.url }}/{{ site.logo }}"
     },
     "url": "{{ site.url }}/",
-    "image": {
+    "logo": {
         "@type": "ImageObject",
         "url": "{{ site.url }}/{{ site.cover }}",
         "width": 2000,
@@ -129,32 +163,42 @@
     "wordCount": "{{wordcount}}",
     "articleBody": "{{ page.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip }}",
     "image": {
-    "@type": "ImageObject",
-    "url": "{{ site.url }}/{% if page.cover %}{{ page.cover }}{% else %}{{ site.cover }}{% endif %}",
+        "@type": "ImageObject",
+        "url": "{{ site.url }}/{% if page.cover %}{{ page.cover }}{% else %}{{ site.cover }}{% endif %}",
     },
     "author": {
-    "@type": "Person",
-    "name": "Jayesh Panchal",
-    "sameAs": [
-        "https://twitter.com/codetonics",
-        "https://github.com/codetonics"
-    ]
+        "@type": "Person",
+        "name": {{author_name}},
+        "image": {
+            "@type": "ImageObject",
+            "url": "{{ site.url }}/{{ author_image }}",
+        },
+        "sameAs": [
+            "https://facebook.com/{{ author_facebook }}",
+            "https://twitter.com/{{ author_twitter }}",
+            "https://github.com/{{ author_github }}",
+            "https://linkedin.com/in/{{ author_linkedin }}",
+            "https://instagram.com/{{ site.instagram }}"
+        ]
     },
     "publisher": {
-    "@type": "Organization",
-    "name": "{{site.title}}",
-    "sameAs": [
-        "https://twitter.com/codetonics",
-        "https://github.com/codetonics"
-    ],
-    "logo": {
-        "@type": "ImageObject",
-        "url": "{{ site.url }}/{{ site.logo }}",
-    }
+        "@type": "Organization",
+        "name": "{{site.title}}",
+        "sameAs": [
+            "https://facebook.com/{{ site.facebook }}",
+            "https://twitter.com/{{ site.twitter }}",
+            "https://github.com/{{ site.github }}",
+            "https://linkedin.com/in/{{ site.linkedin }}",
+            "https://instagram.com/{{ site.instagram }}"
+        ],
+        "logo": {
+            "@type": "ImageObject",
+            "url": "{{ site.url }}/{{ site.logo }}",
+        }
     },
     "mainEntityOfPage": {
-    "@type": "BlogPosting",
-    "@id": "{{meta_url}}"
+        "@type": "BlogPosting",
+        "@id": "{{meta_url}}"
     }
 }
 </script>
