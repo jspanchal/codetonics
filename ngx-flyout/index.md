@@ -1,6 +1,7 @@
 ---
 title: ngx-flyout
 permalink: /ngx-flyout/
+ads: True
 ---
 
 [demo](http://codetonics.com/ngx-flyout/demo)
