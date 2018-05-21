@@ -4,7 +4,7 @@ permalink: /ngx-flyout/
 ads: True
 ---
 
-[demo](http://codetonics.com/ngx-flyout/demo)
+#### [Live Demo](/ngx-flyout/demo)
 
 [![NPM](https://nodei.co/npm/ngx-flyout.png)](https://www.npmjs.com/package/ngx-flyout)
 
