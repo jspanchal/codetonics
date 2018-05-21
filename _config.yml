@@ -88,6 +88,7 @@ defaults:
       class: post-template
       subclass: post
       author: jayesh
+      ads: True
   -
     scope:
       path: ""
@@ -97,6 +98,7 @@ defaults:
       navigation: true
       class: page-template
       subclass: post page
+      ads: False
 
 paginate: 18
 paginate_path: "/page:num/"
