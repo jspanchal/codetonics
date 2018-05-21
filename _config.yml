@@ -98,7 +98,7 @@ defaults:
       class: page-template
       subclass: post page
 
-paginate: 20
+paginate: 18
 paginate_path: "/page:num/"
 
 plugins:
