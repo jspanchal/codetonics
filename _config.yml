@@ -105,3 +105,9 @@ paginate_path: "/page:num/"
 
 plugins:
   - jekyll-paginate
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
