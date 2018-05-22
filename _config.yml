@@ -107,7 +107,11 @@ plugins:
   - jekyll-paginate
 
 compress_html:
-  clippings: all
-  comments: all
+  clippings: []
+  comments: []
   endings: []
-  profile: false
+  ignore:
+    envs: []
+  blanklines: false
+  profile: true
+  startings: []
