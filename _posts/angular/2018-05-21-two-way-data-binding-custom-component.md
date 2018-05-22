@@ -40,7 +40,7 @@ It is a live property, which means when **Parent Component** updates the propert
 The property binding here is *one-way*. When **Child Component** updates the property ```name```, **Parent Component** won't know about it. There comes the *Event binding*.
 
 ## Event Binding
-A parent component can listen to an event raised by its child component by adding the target event within parenthesis ```()``` in the target element. This is called Event Binding.
+A parent component can listen to an event raised by its child component by adding the target event within parenthesis ```()``` in the target element. This is called Event Binding. Read more about [How to use Event Emitters in Angular] here.(http://codetonics.com/angular/using-event-emitters-in-angular/)
 
 ``` xml
 //parent.component.template.html
