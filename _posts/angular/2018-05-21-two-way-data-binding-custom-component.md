@@ -2,7 +2,7 @@
 title: Create two-way data binding in Angular
 categories: [Angular]
 tags: [Angular, Angular 2, Angular 4, Angular 5, Angular 6, Component, Data Binding, Two Way Binding, JavaScript, TypeScript]
-cover: assets/images/two-way-binding.jpg
+cover: image/two-way-binding.jpg
 ---
 
 You must have used ```[(ngModel)]``` and its world-famous “banana in a box” syntax while working with Angular 2 and greater.
