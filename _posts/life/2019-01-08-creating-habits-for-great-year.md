@@ -2,7 +2,7 @@
 title: A simple guide to creating habits for a great year
 categories: [Life]
 tags: [Life, Tips, Productivity]
-cover: image/old-habits-new-habits.jpg
+cover: image/old-habits-new-habits-cover.jpg
 ---
 
 A new year is here and with that our eagerness to make positive changes
