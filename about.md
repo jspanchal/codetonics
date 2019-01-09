@@ -10,13 +10,17 @@ I was born in **[Banswara (India)](http://banswara.rajasthan.gov.in/)** sometime
 
 I attended **[The Maharaja Sayajirao University, Baroda](http://www.msubaroda.ac.in)** where I completed my  *graduation(BCA)* as well as *post graduation in computer applications(MCA)*.
 
-I currenty work at **[Fork Media](http://getforked.in/)**, trying to build products with ability to change the entire advertising industry.
+I currently work for **[Yapsody Entertainment](http://yapsody.com)**, building next generation event ticketing system.
 
-Previously I have worked at **[Zeus Learning, Mumbai](http://www.zeuslearning.com)** for almost three years building [product](https://annotate.net) that have potential to change the way how a teacher interact with students in the classroom.
+Previously, I worked at:
+
+1. **[Fork Media](http://getforked.in/)** building products with ability to change the entire advertising industry.
+
+2. **[Zeus Learning, Mumbai](http://www.zeuslearning.com)** building [product](https://annotate.net) that have potential to change the way how a teacher interact with students in the classroom.
 
 Most of the time when I am not writing code, I spend thinking about the **design** of various things. The experience user will have. The usability of particular design etc.
 
-My love for **bikes** is known to almost everyone in my life.
+My love for **bikes** and **cars** is known to almost everyone in my life.
 
 I started this blog because of my love for writing. Especially so for things that I like. This site is a resource - for myself and the community. It's also my personal design and code playground, a place to experiment, and therefore, a site that is often in a state of flux.
 
