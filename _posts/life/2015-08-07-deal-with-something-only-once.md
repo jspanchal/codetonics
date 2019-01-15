@@ -2,10 +2,11 @@
 title: Deal with something only once
 categories: [Life]
 tags: [Life, Tips, Productivity]
+cover: image/hourglass-cover.png
 ---
 
-I find myself consciously procrastinating more than I would like. I'll read some email, some GitHub issue or pull request 
-and think "I will come back to this later. I'd rather just code". 
+I find myself consciously procrastinating more than I would like. I'll read some email, some GitHub issue or pull request
+and think "I will come back to this later. I'd rather just code".
 Over time the items on my mental to-do list start to build up until I have a decreasing hope of ever getting them complete.
 You see, to-do lists are like a burrito. If you fill it with too many things it falls apart and then you cry and they kick you out of Chipotle.
 
@@ -20,7 +21,7 @@ There's this story I recently read about **Susan O'Connell - a Zen Master** who'
 
 > **The idea is that you should deal with something only once. Do it now. Once done, it's off your mind and you can fully focus on the next matter at hand.**
 
-There isn't really any science behind this. A lot of us will say, "I can decide on that or reply to that later" to many 
+There isn't really any science behind this. A lot of us will say, "I can decide on that or reply to that later" to many
 of the tasks we end up each day, but we put them aside for later. Avoid putting off those small decisions so they don't weigh at the back of your mind.
 
 If you read an email, write a quick reply to it right away. Don't let it sit there. Add thoughts, even if brief, to ongoing pull requests.
