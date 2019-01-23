@@ -7,7 +7,7 @@
     function onBodyLoaded() {
         var progressBar = document.querySelector('progress');
         var header = document.querySelector('.floating-header');
-        var title = document.querySelector('.site-header');
+        var title = document.querySelector('.post-full-title');
 
         var lastScrollY = window.scrollY;
         var lastWindowHeight = window.innerHeight;
@@ -34,7 +34,7 @@
 
         function update() {
             var trigger = title.getBoundingClientRect().top + window.scrollY;
-            var triggerOffset = title.offsetHeight + 48;
+            var triggerOffset = title.offsetHeight + 35;
             var progressMax = lastDocumentHeight - lastWindowHeight;
 
             /* show/hide floating header */
