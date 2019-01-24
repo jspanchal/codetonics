@@ -36,7 +36,7 @@ production stylesheet in assets/built/screen.css
     padding: 0 15px;
     border: #bfc8cd 1px solid;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 2px;
     transition: border 0.3s ease;
 }
 
@@ -64,6 +64,7 @@ production stylesheet in assets/built/screen.css
     display: none;
     border-bottom: #EBF2F6 1px solid;
 }
+
 .extra-pagination:after {
     display: block;
     content: "";
@@ -78,6 +79,7 @@ production stylesheet in assets/built/screen.css
     border-radius: 100%;
     box-shadow: #FFF 0 0 0 5px;
 }
+
 .extra-pagination .pagination {
     width: auto;
 }
@@ -143,4 +145,98 @@ td.code {
 .highlight table td:first-child,
 .highlight table td:last-child {
     background: none;
+}
+
+.post-card {
+    border-radius: 2px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .14);
+}
+
+.post-card-image-link {
+    border-radius: 0;
+}
+
+@media (min-width: 795px) {
+    .home-template .post-feed .post-card:nth-child(6n+1):not(.no-image) .post-card-image-link {
+        position: relative;
+        flex: 1 1 auto;
+        border-radius: 2px 0 0 2px;
+    }
+}
+
+.post-full-image {
+    border-radius: 2px;
+}
+
+.post-full-content code {
+    border-radius: 2px;
+}
+
+.post-full-content pre {
+    border-radius: 2px;
+}
+
+.subscribe-form {
+    border-radius: 2px;
+}
+
+.subscribe-email {
+    border-radius: 2px;
+}
+
+.subscribe-form button {
+    border-radius: 2px;
+}
+
+.author-card-button {
+    border-radius: 2px;
+}
+
+.read-next-card {
+    border-radius: 2px;
+}
+
+.read-next-card:before {
+    border-radius: 2px;
+}
+
+.subscribe-overlay .subscribe-email {
+    border-radius: 2px;
+}
+
+.subscribe-overlay button {
+    border-radius: 8px;
+}
+
+.subscribe-button {
+    border-radius: 2px;
+}
+
+.post-card {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .14);
+}
+
+.post-card:hover {
+    transform: translate3D(0, 0, 0);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .14);
+}
+
+.post-full-content hr:after {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .14);
+}
+
+.subscribe-form button {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .14);
+}
+
+.read-next-card {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .14);
+}
+
+.site-header-content .author-profile-image {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .14);
+}
+
+.subscribe-overlay button {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .14);
 }
