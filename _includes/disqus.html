@@ -1,10 +1,21 @@
+{% capture meta_url %}{{ site.url }}/{{ page.url | remove_first: '/' }}{% endcapture %}
+
+{% if title %}
+{% assign page_title = title %}
+{% elsif page.title %}
+{% assign page_title = page.title %}
+{% else %}
+{% assign page_title = site.name %}
+{% endif %}
+{% capture meta_title %}{{page_title | markdownify | strip_html | strip_newlines | escape_once}}{% endcapture %}
+
 {% if site.disqus %}
 <section class="post-full-comments">
     <div id="disqus_thread"></div>
     <script>
         var disqus_config = function () {
-            this.page.url = '{{ site.url }}/{{ page.url | remove_first: '/' }}';
-            this.page.identifier = '{{ site.title }}';
+            this.page.url = '{{ meta_url }}';
+            this.page.identifier = '{{ meta_title }}';
         };
         (function () {
             var d = document, s = d.createElement('script');
