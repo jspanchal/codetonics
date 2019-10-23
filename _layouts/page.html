@@ -33,17 +33,9 @@ into the {body} of the default.hbs template -->
             </figure>
             {% endif %}
 
-            {% if page.ads %}
-            {%include adsense.html%}
-            {% endif %}
-
             <section class="post-full-content">
                 {{ content }}
             </section>
-
-            {% if page.ads %}
-            {%include adsense.html%}
-            {% endif %}
 
             <!-- If you use Disqus comments, just uncomment this block.
             The only thing you need to change is "test-apkdzgmqhj" - which
