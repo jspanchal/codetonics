@@ -46,11 +46,19 @@ into the {body} of the default.hbs template -->
             </figure>
             {% endif %}
 
+            {% if page.ads %}
+            {%include adsense-display.html%}
+            {% endif %}
+
             <section class="post-full-content">
                 <div class="kg-card-markdown">
                     {{ content }}
                 </div>
             </section>
+
+            {% if page.ads %}
+            {%include adsense-display.html%}
+            {% endif %}
 
             <!-- Email subscribe form at the bottom of the page -->
             {% if site.subscribers %}
@@ -100,7 +108,9 @@ into the {body} of the default.hbs template -->
                 <!-- /author  -->
             </footer>
 
+            {% if page.comments %}
             {% include disqus.html %}
+            {% endif %}
 
         </article>
 
@@ -185,6 +195,3 @@ into the {body} of the default.hbs template -->
 <!-- /post -->
 
 <!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
-
-<!-- /Ads -->
-{% include adsense.html %}

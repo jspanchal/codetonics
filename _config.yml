@@ -91,6 +91,7 @@ defaults:
       subclass: post
       author: jayesh
       ads: True
+      comments: True
   -
     scope:
       path: ""
@@ -101,6 +102,7 @@ defaults:
       class: page-template
       subclass: post page
       ads: False
+      comments: True
 
 paginate: 18
 paginate_path: "/page:num/"
