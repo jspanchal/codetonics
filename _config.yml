@@ -74,8 +74,8 @@ exclude:
   - script.py
   - changelog.md
   - "*.Rmd"
-  - .git*
-  - .idea*
+  - .git
+  - .idea
 
 
 defaults:

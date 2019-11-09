@@ -34,7 +34,7 @@ gulp.task('css', function () {
     const processors = [
         easyimport,
         customProperties,
-        colorFunction(),
+        colorFunction({preserveCustomProps: false}),
         autoprefixer({browsers: ['last 5 versions']}),
         cssnano()
     ];
