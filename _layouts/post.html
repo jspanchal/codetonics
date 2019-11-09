@@ -52,7 +52,16 @@ into the {body} of the default.hbs template -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    {{ content }}
+
+                        {% if page.ads %}
+                        {%include adsense-display.html%}
+                        {% endif %}
+
+                        {{ content }}
+
+                        {% if page.ads %}
+                        {%include adsense-display.html%}
+                        {% endif %}
                 </div>
             </section>
 
