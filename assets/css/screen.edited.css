@@ -240,3 +240,12 @@ td.code {
 .subscribe-overlay button {
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .14);
 }
+
+.post-full-content:before,
+.post-full-content:after {
+    display: none;
+}
+
+.post-full-content {
+    padding-top: 0;
+}
