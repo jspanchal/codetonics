@@ -1,10 +1,4 @@
 {% for post in paginator.posts %}
-    {% if forloop.index == 3 or forloop.index == 9 or forloop.index == 15 %}
-        <article class="post-card {{ page.class }}">
-            {%include adsense-infeed.html%}
-        </article>
-    {% endif %}
-
     <article class="post-card {{ page.class }}{% unless post.cover %} no-image{% endunless %}">
         {% if post.cover %}
             <a class="post-card-image-link" href="/{{ post.url | remove_first: '/' }}">
@@ -45,3 +39,7 @@
         </div>
     </article>
 {% endfor %}
+
+<article class="post-card {{ page.class }}">
+    {%include adsense-infeed.html%}
+</article>
