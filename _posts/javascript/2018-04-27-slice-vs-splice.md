@@ -2,10 +2,11 @@
 title: Battle between Slice and Splice in JavaScript
 categories: [JavaScript]
 tags: [JavaScript, Array, Slice, Splice]
+cover: image/battle-cover.jpg
 ---
 
 Every once in a while one needs to play with part of an array and almost always end up looking for the difference between ```slice()``` and ```splice()``` first.
-Let's clear the confustion between ```slice``` and ```splice``` in JavaScript.
+Let's clear the confusion between ```slice``` and ```splice``` in JavaScript.
 
 
 ## Array.prototype.slice
