@@ -2,7 +2,7 @@
 title: "Detect if document is ready in pure JavaScript"
 categories: ["JavaScript"]
 tags: ["JavaScript", "Tips", "JQuery", "Performance"]
-cover: image/cover: image/equality-cover.jpg
+cover: image/ready-set-go-cover.jpg
 ---
 
 While JavaScript does provide the ```load``` event for executing code when a page is rendered, this event does not get
