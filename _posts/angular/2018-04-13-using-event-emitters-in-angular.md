@@ -2,6 +2,7 @@
 title: Using Event Emitters in Angular
 categories: [Angular]
 tags: [Angular, Angular 2, Angular 4, Angular 5, Events, Event Emitter, Output Decorator, JavaScript, TypeScript]
+cover: image/event-emitter.png
 ---
 
 Every once in a while you need a child to communicate with its parent, that is when Angular Event Emitter comes handy.

@@ -2,6 +2,7 @@
 title: Creating custom Angular pipes
 categories: [Angular]
 tags: [Angular, Angular 2, Angular 4, Angular 5, Pipes, Filters, JavaScript, TypeScript]
+cover: image/pipes-cover.jpg
 ---
 
 Pipes in Angular 2+ (Filters in Angular 1) are a great way to transform and format data right from your templates. Out of the box you get pipes for dates, currency, percentage and character cases, but you can also define custom pipes.

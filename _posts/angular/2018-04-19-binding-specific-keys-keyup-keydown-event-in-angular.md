@@ -2,6 +2,7 @@
 title: A Cleaner Way To Bind Specific Keys to Keyup and Keydown Events in Angular
 categories: [Angular]
 tags: [Angular, Angular 2, Angular 4, Angular 5, Routing, Modules, JavaScript, TypeScript, SCSS, SASS, CSS]
+cover: image/keyboard-cover.png
 ---
 
 Binding ```keyup``` or ```keydown``` events in Angular is pretty straight forward.
