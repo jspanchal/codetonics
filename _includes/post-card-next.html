@@ -24,17 +24,17 @@
                     <p>{{ page.next.content | strip_html | truncatewords: 33, "" }}</p>
                 </section>
             </a>
-            <footer class="post-card-meta">
-                {% for author in site.data.authors %}
-                    {% if author[1].username == page.next.author %}
-                        {% if author[1].picture %}
-                        <img class="author-profile-image" src="/{{ author[1].picture }}" alt="{{ author[1].name }}" />
-                        {% endif %}
-                        <span class="post-card-author">
-                            <a href="/author/{{ page.next.author }}/">{{ author[1].name }}</a>
-                        </span>
-                    {% endif %}
-                {% endfor %}
-            </footer>
+<!--            <footer class="post-card-meta">-->
+<!--                {% for author in site.data.authors %}-->
+<!--                    {% if author[1].username == page.next.author %}-->
+<!--                        {% if author[1].picture %}-->
+<!--                        <img class="author-profile-image" src="/{{ author[1].picture }}" alt="{{ author[1].name }}" />-->
+<!--                        {% endif %}-->
+<!--                        <span class="post-card-author">-->
+<!--                            <a href="/author/{{ page.next.author }}/">{{ author[1].name }}</a>-->
+<!--                        </span>-->
+<!--                    {% endif %}-->
+<!--                {% endfor %}-->
+<!--            </footer>-->
         </div>
     </article>
