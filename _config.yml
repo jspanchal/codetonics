@@ -5,7 +5,7 @@ language: 'en-US'
 version: 1
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-url: http://codetonics.com
+url: https://codetonics.com
 baseurl:
 
 # Website info
@@ -80,8 +80,7 @@ exclude:
 
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: posts
     values:
@@ -93,8 +92,7 @@ defaults:
       author: jayesh
       ads: True
       comments: True
-  -
-    scope:
+  - scope:
       path: ""
       type: pages
     values:
