@@ -116,22 +116,207 @@
 
     <script>
         function onBodyLoaded() {
-            /**
-             * ---------------------------------------
-             * This demo was created using amCharts 4.
-             *
-             * For more information visit:
-             * https://www.amcharts.com/
-             *
-             * Documentation is available at:
-             * https://www.amcharts.com/docs/v4/
-             * ---------------------------------------
-             */
 
-// Themes begin
+            const names = [
+                {
+                    "tag": "Thank-You",
+                    "weight": 94
+                },
+                {
+                    "tag": "Megha",
+                    "weight": 92
+                },
+                {
+                    "tag": "Anisha",
+                    "weight": 93
+                },
+                {
+                    "tag": "Minal",
+                    "weight": 92
+                },
+                {
+                    "tag": "Tita",
+                    "weight": 91
+                },
+                {
+                    "tag": "Rikku",
+                    "weight": 91
+                },
+                {
+                    "tag": "Leena",
+                    "weight": 91
+                },
+                {
+                    "tag": "Lakhan",
+                    "weight": 91
+                },
+                {
+                    "tag": "Nikita",
+                    "weight": 92
+                },
+                {
+                    "tag": "Spriha",
+                    "weight": 91
+                },
+                {
+                    "tag": "Prashant",
+                    "weight": 90
+                },
+                {
+                    "tag": "Surbhi",
+                    "weight": 90
+                },
+                {
+                    "tag": "Sanjiv",
+                    "weight": 90
+                },
+                {
+                    "tag": "Ashish",
+                    "weight": 90
+                },
+                {
+                    "tag": "Harish",
+                    "weight": 90
+                },
+                {
+                    "tag": "Heera",
+                    "weight": 90
+                },
+                {
+                    "tag": "Pawan",
+                    "weight": 90
+                },
+                {
+                    "tag": "Krishnakant",
+                    "weight": 90
+                },
+                {
+                    "tag": "Poonam",
+                    "weight": 90
+                },
+                {
+                    "tag": "Amit",
+                    "weight": 90
+                },
+                {
+                    "tag": "Priyanka",
+                    "weight": 90
+                },
+                {
+                    "tag": "Himanshu",
+                    "weight": 90
+                },
+                {
+                    "tag": "Manoj",
+                    "weight": 90
+                },
+                {
+                    "tag": "Nikhil",
+                    "weight": 90
+                },
+                {
+                    "tag": "Sunil",
+                    "weight": 90
+                },
+                {
+                    "tag": "Priti",
+                    "weight": 90
+                },
+                {
+                    "tag": "Ishita",
+                    "weight": 90
+                },
+                {
+                    "tag": "Maulin",
+                    "weight": 90
+                },
+                {
+                    "tag": "Jugal",
+                    "weight": 90
+                },
+                {
+                    "tag": "Dhrumil",
+                    "weight": 90
+                },
+                {
+                    "tag": "Yash",
+                    "weight": 90
+                },
+                {
+                    "tag": "Aditya",
+                    "weight": 90
+                },
+                {
+                    "tag": "Aditi",
+                    "weight": 90
+                },
+                {
+                    "tag": "Lalit",
+                    "weight": 90
+                },
+                {
+                    "tag": "Raghav",
+                    "weight": 90
+                },
+                {
+                    "tag": "Neha",
+                    "weight": 90
+                },
+                {
+                    "tag": "Brendon",
+                    "weight": 90
+                },
+                {
+                    "tag": "Chayan",
+                    "weight": 90
+                },
+                {
+                    "tag": "Manasi",
+                    "weight": 90
+                },
+                {
+                    "tag": "Vijay",
+                    "weight": 90
+                },
+                {
+                    "tag": "Paresh",
+                    "weight": 90
+                },
+                {
+                    "tag": "Chandresh",
+                    "weight": 90
+                },
+                {
+                    "tag": "Krutika",
+                    "weight": 90
+                },
+                {
+                    "tag": "Sudhanshu",
+                    "weight": 90
+                },
+                {
+                    "tag": "Mohit",
+                    "weight": 90
+                },
+                {
+                    "tag": "Mayur",
+                    "weight": 90
+                },
+                {
+                    "tag": "Divyansh",
+                    "weight": 90
+                },
+                {
+                    "tag": "Tarun",
+                    "weight": 90
+                },
+                {
+                    "tag": "Tinni",
+                    "weight": 90
+                }
+            ];
+
             am4core.useTheme(am4themes_spiritedaway);
-// Themes end
-
 
             var chart = am4core.create("chartdiv", am4plugins_wordCloud.WordCloud);
             var series = chart.series.push(new am4plugins_wordCloud.WordCloudSeries());
@@ -145,21 +330,13 @@
             series.labels.template.margin(4, 4, 4, 4);
             series.maxFontSize = am4core.percent(30);
             series.randomness = 0;
-
-            series.text = `Thank-You Thank-You Megha Anisha Minal Tita Rikku Leena Lakhan Nikita Spriha Prashant Surbhi Sanjiv Ashish Harish
-             Heera Pawan Krishnakant Poonam Amit Priyanka Himanshu Manoj Nikhil Sunil Priti Ishita Maulin Jugal Dhrumil
-             Yash Aditya Aditi Lalit Raghav Neha Brendon Chayan Manasi Vijay Paresh Chandresh Krutika Sudhanshu Mohit Mayur Divyansh Tarun Tinni`;
-
+            series.dataFields.word = "tag";
+            series.dataFields.value = "weight";
             series.colors = new am4core.ColorSet();
-            series.colors.passOptions = {}; // makes it loop
-
-//series.labelsContainer.rotation = 45;
+            series.colors.passOptions = {};
             series.angles = [0, -90];
-            series.fontWeight = "500"
-
-            // setInterval(function () {
-            //     series.dataItems.getIndex(Math.round(Math.random() * (series.dataItems.length - 1))).setValue("value", Math.round(Math.random() * 10));
-            // }, 10000)
+            series.fontWeight = "500";
+            series.data = names;
         }
     </script>
 
