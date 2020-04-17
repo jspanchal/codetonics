@@ -6,17 +6,19 @@ shortlink: 'http://goo.gl/XAkhmO'
 
 I'm Jayesh Panchal.
 
-I was born in **[Banswara (India)](http://banswara.rajasthan.gov.in/)** sometime in the early half of the **1990s** and have been blessed with loving parents and one younger sister.
+I was born in **[Banswara (India)](https://banswara.rajasthan.gov.in/)** sometime in the early half of the **1990s** and have been blessed with loving parents and one younger sister.
 
-I attended **[The Maharaja Sayajirao University, Baroda](http://www.msubaroda.ac.in)** where I completed my  *graduation(BCA)* as well as *post graduation in computer applications(MCA)*.
+I attended **[The Maharaja Sayajirao University, Baroda](https://www.msubaroda.ac.in)** where I completed my  *graduation(BCA)* as well as *post graduation in computer applications(MCA)*.
 
-I currently work for **[Yapsody Entertainment](http://yapsody.com)**, building next generation event ticketing system.
+I currently work for **[Remitr](https://remitr.com)**
 
 Previously, I worked at:
 
-1. **[Fork Media](http://getforked.in/)** building products with ability to change the entire advertising industry.
+1. **[Yapsody](https://yapsody.com/)**
 
-2. **[Zeus Learning, Mumbai](http://www.zeuslearning.com)** building [product](https://annotate.net) that have potential to change the way how a teacher interact with students in the classroom.
+2. **[Fork Media](https://getforked.in/)**
+
+3. **[Zeus Learning, Mumbai](https://www.zeuslearning.com)**
 
 Most of the time when I am not writing code, I spend thinking about the **design** of various things. The experience user will have. The usability of particular design etc.
 
@@ -24,7 +26,7 @@ My love for **bikes** and **cars** is known to almost everyone in my life.
 
 I started this blog because of my love for writing. Especially so for things that I like. This site is a resource - for myself and the community. It's also my personal design and code playground, a place to experiment, and therefore, a site that is often in a state of flux.
 
-If you're feeling up to it, tweet me on **[Twitter](http://twitter.com/codetonics)**.
+If you're feeling up to it, tweet me on **[Twitter](https://twitter.com/codetonics)** or follow me on **[Instagram](https://instagram.com/a1pha_m)**.
 
 ## Copyright
 
@@ -34,7 +36,7 @@ There is no need to email me for permission - use my content however you want! E
 
 **Attribution is appreciated** but not required.
 
-[Why I'm releasing copyright ?](http://zenhabits.net/uncopyright)
+[Why I'm releasing copyright ?](https://zenhabits.net/uncopyright)
 
 And finally a picture of me ;-)
 
