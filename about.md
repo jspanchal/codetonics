@@ -26,7 +26,7 @@ My love for **bikes** and **cars** is known to almost everyone in my life.
 
 I started this blog because of my love for writing. Especially so for things that I like. This site is a resource - for myself and the community. It's also my personal design and code playground, a place to experiment, and therefore, a site that is often in a state of flux.
 
-If you're feeling up to it, tweet me on **[Twitter](https://twitter.com/codetonics)** or follow me on **[Instagram](https://instagram.com/a1pha_m)**.
+If you're feeling up to it, tweet me on **[Twitter](https://twitter.com/a1pha_m)** or follow me on **[Instagram](https://instagram.com/a1pha_m)**.
 
 ## Copyright
 
