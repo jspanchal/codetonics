@@ -15,7 +15,7 @@ cover: assets/images/blog-cover.jpg
 logo: False
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-keywords: [Programming, Design, UI, UX, Productivity, Tips, JavaScript, Nodejs, CSS, SCSS, HTML, C#, Blogging]
+keywords: [Programming, Design, UI, UX, Productivity, Tips, JavaScript, Nodejs, CSS, SCSS, HTML, AWS, Cloud, AI]
 
 
 # Social info
@@ -23,12 +23,12 @@ navigation: True # show the navbar links
 subscribers: True # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: a1pha_m # replace by your username
-facebook: a1pha.m # replace by your username
-linkedin: a1pha-m
-github: a1pha-m
-stackoverflow: codetonics
-instagram: a1pha_m
+twitter:
+facebook:
+linkedin: jspanchal
+github: jspanchal
+stackoverflow:
+instagram:
 
 # Disqus
 disqus: True

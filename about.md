@@ -4,29 +4,20 @@ permalink: /about/
 shortlink: 'http://goo.gl/XAkhmO'
 ---
 
-I'm Jayesh Panchal.
+Hey there! I’m **Jayesh Panchal** — a backend engineer by profession, a curious learner by nature, and a storyteller at heart.
 
-I was born in **[Banswara (India)](https://banswara.rajasthan.gov.in/)** sometime in the early half of the **1990s** and have been blessed with loving parents and one younger sister.
+This blog is my corner of the internet where I share the code I write, the systems I break (and fix), and the lessons I learn along the way — both in tech and in life.
 
-I attended **[The Maharaja Sayajirao University, Baroda](https://www.msubaroda.ac.in)** where I completed my  *graduation(BCA)* as well as *post graduation in computer applications(MCA)*.
+From designing scalable backend architectures to discovering what fuels me beyond the screen — you'll find a mix of:
 
-I currently work for **[Remitr](https://remitr.com)**
+1. Programming insights & tutorials
+2. Dev-life stories & lessons
+3. Real-world problems and how I tackle them
+4. Personal reflections, travels, and everything in between
 
-Previously, I worked at:
+If you’re a fellow engineer, an aspiring coder, or just someone who enjoys reading raw, real experiences — you’re in the right place.
 
-1. **[Yapsody](https://yapsody.com/)**
-
-2. **[Fork Media](https://getforked.in/)**
-
-3. **[Zeus Learning, Mumbai](https://www.zeuslearning.com)**
-
-Most of the time when I am not writing code, I spend thinking about the **design** of various things. The experience user will have. The usability of particular design etc.
-
-My love for **bikes** and **cars** is known to almost everyone in my life.
-
-I started this blog because of my love for writing. Especially so for things that I like. This site is a resource - for myself and the community. It's also my personal design and code playground, a place to experiment, and therefore, a site that is often in a state of flux.
-
-If you're feeling up to it, tweet me on **[Twitter](https://twitter.com/a1pha_m)** or follow me on **[Instagram](https://instagram.com/a1pha_m)**.
+Let’s build, break, and grow — one post at a time.
 
 ## Copyright
 
